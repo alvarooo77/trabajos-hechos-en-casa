@@ -4,7 +4,7 @@
 		<provider>com.objectdb.jpa.Provider</provider>
 		<class>com.example.Contactos</class>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="objectdb:clientes.odb" />
+			<property name="javax.persistence.jdbc.url" value="objectdb:contactos.odb" />
 		</properties>
 	</persistence-unit>
 </persistence>
