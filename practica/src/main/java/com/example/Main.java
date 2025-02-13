@@ -69,6 +69,7 @@ public class Main {
 
         System.out.print("Introduce numero contacto: ");
         int numero = teclado.nextInt();
+        teclado.nextLine();
 
         System.out.print("Introduce correo contacto: ");
         String correo = teclado.nextLine();

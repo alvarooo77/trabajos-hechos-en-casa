@@ -50,7 +50,7 @@ public class GestorContactos {
 
         GestorPrincipal.em.getTransaction().begin();
 
-        List<Contactos> contactos = GestorPrincipal.em.createQuery("SELECT c FROM Cliente c", Contactos.class)
+        List<Contactos> contactos = GestorPrincipal.em.createQuery("SELECT c FROM Contactos c", Contactos.class)
                 .getResultList();
 
         GestorPrincipal.em.getTransaction().commit();

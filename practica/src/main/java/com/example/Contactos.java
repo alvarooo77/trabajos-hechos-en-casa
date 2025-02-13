@@ -71,4 +71,10 @@ public class Contactos {
         this.correo = correo;
     }
 
+    @Override
+    public String toString() {
+        return "Contacto [id=" + id + ", nombre=" + nombre + ", apellido=" + apellido + ", numero=" + numero
+                + ", correo=" + correo + "]";
+    }
+
 }
